@@ -31,7 +31,7 @@ public class Kickoff {
      */
     public static void main(String[] args) {
 
-        System.out.println("kickoff v.0.0.2 - A tool to generate new android projects based on a powerful template.\n");
+        System.out.println("kickoff v.0.0.3 - A tool to generate new android projects based on a powerful template.\n");
 
         Cli cli = new Cli(args);
         cli.parse();

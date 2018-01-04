@@ -1,4 +1,4 @@
-package ${configs.packageName}.base.activity;
+package ${configs.packageName}.ui.activity;
 
 import ${configs.packageName}.R;
 

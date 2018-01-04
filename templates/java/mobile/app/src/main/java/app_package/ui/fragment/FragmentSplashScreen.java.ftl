@@ -1,4 +1,4 @@
-package ${configs.packageName}.feature.splash;
+package ${configs.packageName}.ui.fragment;
 
 import com.massivedisaster.adal.fragment.AbstractSplashFragment;
 

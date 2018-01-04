@@ -11,6 +11,7 @@ public class ProjectConfiguration {
 	private int targetSdkApi;
 	private String buildTools;
 	private String projectType;
+	private boolean hasMultiDimensions;
 	private boolean hasQa;
 	private Dependencies dependencies;
 	private QualityVerifier qualityVerifier;
@@ -61,5 +62,9 @@ public class ProjectConfiguration {
 
 	public QualityVerifier getQualityVerifier() {
 		return qualityVerifier;
+	}
+
+	public boolean isHasMultiDimensions() {
+		return hasMultiDimensions;
 	}
 }

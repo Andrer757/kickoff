@@ -1,4 +1,4 @@
-package ${configs.packageName}.feature.splash;
+package ${configs.packageName}.ui.activity;
 
 import ${configs.packageName}.base.activity.ActivityFullScreen;
 import com.massivedisaster.activitymanager.ActivityFragmentManager;
