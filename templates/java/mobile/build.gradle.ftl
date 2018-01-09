@@ -4,7 +4,7 @@ buildscript {
         <#if configs.dependencies.fabrickey??>
         maven { url 'https://maven.fabric.io/public' }
         </#if>
-        maven { url 'https://maven.google.com' }
+        google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:${configs.gradlePluginVersion}'
@@ -24,7 +24,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url 'https://maven.google.com' }
+        google()
     }
 }
 

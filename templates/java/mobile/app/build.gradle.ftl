@@ -47,9 +47,7 @@ android {
         qa {
             initWith debug
             debuggable true
-            <#if !configs.hasMultiDimensions!true>
             applicationIdSuffix project.QA_APP_ID_SUFFIX
-            </#if>
             versionNameSuffix project.QA_VERSION_NAME_SUFFIX
             manifestPlaceholders += [
                     appIcon: "@drawable/ic_launcher_qa"
@@ -60,9 +58,7 @@ android {
         dev {
             initWith debug
             debuggable true
-            <#if !configs.hasMultiDimensions!true>
             applicationIdSuffix project.DEV_APP_ID_SUFFIX
-            </#if>
             versionNameSuffix project.DEV_VERSION_NAME_SUFFIX
             manifestPlaceholders += [
                     appIcon: "@drawable/ic_launcher_dev"
